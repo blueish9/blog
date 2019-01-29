@@ -33,7 +33,7 @@ Primary use:  Vcard / Personal / CV / Resume / Portfolio
 ! 01. MIXINS / VARIABLES
 ==============	=========================================== */
 .color1 {
-  color: #08aeac;
+  color: #0091EA;
 }
 .color2 {
   color: #021533;
@@ -85,8 +85,8 @@ a:focus {
 }
 .btn {
   font-weight: bold;
-  color: #ffffff;
-  background: #08aeac;
+  color: #fff;
+  background: #0091EA;
   border-radius: 0;
   font-size: 12px;
   padding: 10px 20px;
@@ -97,15 +97,15 @@ a:focus {
 }
 .btn:hover {
   background: #000000;
-  color: #ffffff;
+  color: #fff;
 }
 .btn-default {
   display: inline-block;
   padding: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
-  background: #008c8a !important;
-  color: #ffffff;
+  background: #006fc8 !important;
+  color: #fff;
   font-weight: bold;
   text-transform: uppercase;
   border-radius: 0;
@@ -114,7 +114,7 @@ a:focus {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  border: 0px solid transparent!important;
+  border: 0px solid transparent !important;
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -134,21 +134,21 @@ a:focus {
   z-index: -1;
 }
 .btn-default:hover {
-  color: #ffffff;
-  border: 0px solid transparent!important;
+  color: #fff;
+  border: 0px solid transparent !important;
 }
 .btn-default:hover:before {
   width: 100%;
 }
 .btn-default3 {
   background: #d9212a;
-  color: #ffffff;
+  color: #fff;
   border: 0;
   text-transform: uppercase;
 }
 .btn-default3:hover {
-  background: #009d9b;
-  color: #ffffff;
+  background: #0080d9;
+  color: #fff;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -176,7 +176,7 @@ a:focus {
 }
 .btn-nobg:hover {
   background: #021533;
-  color: #ffffff;
+  color: #fff;
 }
 iframe {
   width: 100%;
@@ -190,8 +190,8 @@ iframe {
 #page-loader {
   width: 100%;
   height: 100%;
-  background: #008c8a;
-  color: #08aeac;
+  background: #006fc8;
+  color: #0091EA;
   opacity: 0.99;
   position: fixed;
   top: 0;
@@ -267,7 +267,7 @@ iframe {
   -moz-transform: translateY(-80px);
   -o-transform: translateY(-80px);
   transform: translateY(-80px);
-  opacity: 0!important;
+  opacity: 0 !important;
 }
 .loader-down {
   -webkit-transform: translateY(80px);
@@ -351,7 +351,7 @@ iframe {
   }
 }
 .social-icons a {
-  color: #ffffff;
+  color: #fff;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -364,7 +364,7 @@ iframe {
   text-align: center;
 }
 .footer-social-icons a {
-  color: #ffffff;
+  color: #fff;
   display: inline-block;
   width: 30px;
   height: 30px;
@@ -380,8 +380,8 @@ iframe {
   -webkit-border-radius: 0px;
 }
 .footer-social-icons a:hover {
-  color: #ffffff;
-  background: #08aeac;
+  color: #fff;
+  background: #0091EA;
 }
 /* ==========================================================
 ! 06. SECTION: vCard Body
@@ -497,7 +497,7 @@ iframe {
 }
 .ps-scrollbar-y-rail {
   opacity: 0.9 !important;
-  right: 4px!important;
+  right: 4px !important;
 }
 /* ==========================================================
 ! 07. SECTION: Main Menu
@@ -539,9 +539,9 @@ iframe {
 }
 .main-menu-list a {
   display: block;
-  background: #08aeac;
+  background: #0091EA;
   padding: 10px;
-  color: #ffffff;
+  color: #fff;
   text-transform: uppercase;
   font-size: 12px;
   -webkit-transition: all 0.3s ease-in-out;
@@ -570,8 +570,8 @@ iframe {
   z-index: -1;
 }
 .main-menu-list a:hover {
-  color: #ffffff;
-  border: 0px solid transparent!important;
+  color: #fff;
+  border: 0px solid transparent !important;
   text-decoration: none;
   padding-left: 15px;
 }
@@ -614,7 +614,7 @@ iframe {
   opacity: 0;
 }
 .profileActive {
-  opacity: 1!important;
+  opacity: 1 !important;
 }
 .vcard-profile-description {
   text-align: center;
@@ -657,11 +657,11 @@ iframe {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   padding: 10px;
-  background: url('../img/bg-btn.png') no-repeat center center #08aeac;
+  background: url('../img/bg-btn.png') no-repeat center center #0091EA;
 }
 .vcard-profile-description-ft-item p {
   margin-bottom: 0;
-  color: #ffffff;
+  color: #fff;
   font-size: 12px;
 }
 /* ==========================================================
@@ -680,15 +680,14 @@ iframe {
 }
 .section-title2 {
   font-weight: bold;
-  color: #08aeac;
-  font-size: 20px;
+  color: #0091EA;
   line-height: 24px;
   letter-spacing: -1px;
   padding-bottom: 10px;
   padding-left: 15px;
   padding-top: 5px;
   padding-bottom: 5px;
-  border-left: 4px solid #08aeac;
+  border-left: 4px solid #0091EA;
 }
 .resume-item {
   padding: 15px;
@@ -722,24 +721,28 @@ iframe {
   padding-bottom: 5px;
   font-size: 15px;
 }
+h3.section-item-title-2 {
+  padding-top: 25px;
+}
 .graduation-time,
 .job {
   line-height: 15px;
   font-style: italic;
   color: #555;
-  font-size: 10px;
+  font-size: 13px;
   margin-top: 5px;
   border-bottom: 1px solid #ccc;
   padding-bottom: 5px;
 }
 .graduation-description p {
-  font-size: 12px;
+  font-size: 13px;
 }
 /*============================================================================
   >>  10. SECTION: Resume
   ============================================================================
 */
-.section-education {
+.section-education,
+.section-work {
   margin-bottom: 40px;
 }
 .resume-buttons {
@@ -786,8 +789,8 @@ iframe {
   font-weight: bold;
 }
 .testimonial-content {
-  background: url('../img/bgmask2.png') no-repeat center center #08aeac;
-  color: #ffffff;
+  background: url('../img/bgmask2.png') no-repeat center center #0091EA;
+  color: #fff;
   padding: 20px;
   border-radius: 10px;
   -moz-border-radius: 10px;
@@ -813,7 +816,7 @@ iframe {
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
   z-index: 888;
-  background: #08aeac;
+  background: #0091EA;
 }
 .testimonial-picture {
   width: 110px;
@@ -850,6 +853,9 @@ iframe {
 .owl-carousel:hover {
   cursor: -webkit-grab;
   cursor: -moz-grab;
+}
+.work-description p {
+  font-size: 13px;
 }
 /*============================================================================
   >>  11. Owl Carousel
@@ -890,16 +896,16 @@ iframe {
   padding-left: 20px;
   padding-right: 20px;
   background: rgba(0, 0, 0, 0.4);
-  color: #ffffff !important;
+  color: #fff !important;
   border-radius: 0 0 20px 20px;
   -moz-border-radius: 0 0 20px 20px;
   -webkit-border-radius: 0 0 20px 20px;
 }
 .owl-controls-wrapper2 .owl-controls a {
-  color: #ffffff !important;
+  color: #fff !important;
 }
 .owl-controls-wrapper2 .owl-controls .owl-page {
-  background-color: #ffffff;
+  background-color: #fff;
 }
 .owl-controls-wrapper2 .owl-controls .owl-page.active {
   background: #021533;
@@ -964,6 +970,22 @@ iframe {
 /* ==========================================================
 ! 12. SECTION: SKILLS
 ========================================================== */
+.skill-1 {
+  background-color: #673AB7;
+}
+.skill-2 {
+  background-color: #7E57C2;
+}
+.skill-3 {
+  background-color: #5C6BC0;
+}
+.skill-item {
+  float: left;
+  margin: 5px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #eef2f5;
+}
 .skills-list {
   padding-left: 0;
   margin-left: 0;
@@ -994,7 +1016,7 @@ iframe {
   margin-bottom: 40px;
 }
 .progress-bar {
-  background: #08aeac;
+  background: #0091EA;
   width: 20%;
 }
 .progress-bar-2 {
@@ -1035,11 +1057,11 @@ iframe {
   background-position: center center;
   height: 250px;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
   padding: 15px;
 }
 .project-thumbnail:hover {
-  color: #ffffff;
+  color: #fff;
 }
 .project-thumbnail:hover .project-description-wrapper {
   opacity: 1;
@@ -1061,7 +1083,7 @@ iframe {
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
-  color: #ffffff;
+  color: #fff;
   position: relative;
   background: rgba(0, 0, 0, 0.7);
 }
@@ -1085,7 +1107,7 @@ iframe {
   content: '';
   display: block;
   height: 1px;
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid #fff;
   width: 50%;
   margin: 0 auto;
   opacity: 0.5;
@@ -1094,7 +1116,7 @@ iframe {
 }
 .project-thumbnail {
   display: block;
-  color: #ffffff;
+  color: #fff;
   position: relative;
 }
 span.see-more {
@@ -1122,10 +1144,10 @@ span.see-more {
 }
 .blog-item-wrapper {
   /* border: 1px solid #ddd;
-  border-top: 3px solid @color1;
-  padding: 15px;
-  padding-top: 20px;
-  padding-bottom: 5px;*/
+   border-top: 3px solid @color1;
+   padding: 15px;
+   padding-top: 20px;
+   padding-bottom: 5px;*/
   padding-bottom: 20px;
   border-bottom: 1px solid #ccc;
   -webkit-transition: all 0.3s ease-in-out;
@@ -1167,7 +1189,7 @@ span.see-more {
   font-size: 12px;
 }
 .blog-item-description a {
-  color: #555555 !important;
+  color: #555 !important;
 }
 .blog-item-description a:hover {
   text-decoration: none;
@@ -1194,8 +1216,8 @@ span.see-more {
   padding: 5px;
   padding-left: 10px;
   padding-right: 10px;
-  color: #ffffff;
-  background: #08aeac;
+  color: #fff;
+  background: #0091EA;
   font-weight: bold;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -1240,7 +1262,7 @@ span.see-more {
   line-height: 23px;
 }
 .blog-comments-title {
-  border-bottom: 1px dotted #08aeac;
+  border-bottom: 1px dotted #0091EA;
   padding-bottom: 10px;
   margin-bottom: 10px;
 }
@@ -1280,7 +1302,7 @@ span.see-more {
   margin-bottom: 20px;
   margin-top: 40px;
   font-size: 18px;
-  color: #08aeac;
+  color: #0091EA;
 }
 .media-heading {
   font-weight: bold;
@@ -1295,7 +1317,7 @@ span.see-more {
   font-size: 12px;
 }
 .well {
-  background-color: transparent!important;
+  background-color: transparent !important;
 }
 .blog-comments > .media {
   border-bottom: 1px dotted #000000;
@@ -1308,7 +1330,7 @@ span.see-more {
   margin-top: 25px;
 }
 .media img {
-  width: 64px!important;
+  width: 64px !important;
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -1334,14 +1356,14 @@ span.see-more {
 ! 17. SECTION: Contact
 ========================================================== */
 .contact-subtitle-1 {
-  color: #08aeac;
+  color: #0091EA;
   font-size: 14px;
   letter-spacing: -1px;
   font-weight: bold;
   margin-bottom: 8px;
   margin-top: 25px;
   padding-bottom: 5px;
-  border-bottom: 1px dotted #08aeac;
+  border-bottom: 1px dotted #0091EA;
 }
 .contact-subtitle-1:first-child {
   margin-top: 0;
@@ -1367,19 +1389,19 @@ span.see-more {
 }
 ::-webkit-input-placeholder {
   font-style: italic;
-  color: #999999 !important;
+  color: #999 !important;
 }
 :-moz-placeholder {
   font-style: italic;
-  color: #999999 !important;
+  color: #999 !important;
 }
 ::-moz-placeholder {
   font-style: italic;
-  color: #999999 !important;
+  color: #999 !important;
 }
 :-ms-input-placeholder {
   font-style: italic;
-  color: #999999 !important;
+  color: #999 !important;
 }
 .modal-wrap {
   display: none;
@@ -1428,3 +1450,4 @@ span.see-more {
 .safari .testimonial-picture img {
   border: 0px solid #ddd;
 }
+/*# sourceMappingURL=styles.css.map */
